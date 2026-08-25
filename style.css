@@ -1,0 +1,43 @@
+body {
+    background-color: #0f0f0f; /* Fundo preto estilo YouTube */
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+/* Título Chamativo */
+h1 {
+    color: #ff0000; /* Vermelho vibrante */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+    margin-bottom: 30px;
+}
+
+/* Moldura do Vídeo */
+iframe {
+    border: 5px solid #333;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(255, 0, 0, 0.5); /* Brilho neon atrás do vídeo */
+    transition: transform 0.3s ease;
+}
+
+/* Efeito ao passar o mouse no vídeo */
+iframe:hover {
+    transform: scale(1.05);
+    border-color: #ff0000;
+}
+
+/* Botão ou links decorados */
+.botao-voltar {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
